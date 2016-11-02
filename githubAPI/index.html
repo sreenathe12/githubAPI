@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>GITHUBAPI</title>
+	
+	<link rel="stylesheet" type="text/css" href="chandra.css">
+	
+</head>
+	
+<body>
+
+<input id="search" type="text" value="" /></br></br>
+<!--  tables !-->
+<div class="conatiner" >
+<div class="firstbutton" id="refresh" >
+<input id="hot_repo" type="button" value="get data by stars" />
+</br></br>
+<table id="lastmonth" border="1" style="border-collapse:collapse" >
+<thead><tr> 
+<th>ID</th><th>NAME</th><th>DESCRIPTION</th><th>FORKS</th>
+</tr></thead>
+<tbody>  </tbody>
+</table>
+</div>
+</br></br>
+<div class="secondbutton"  >
+<input id="prolific_users" type="button" value="get data by follwers"/>
+</br></br>
+<table id="lastyear" border="1" style="border-collapse:collapse">
+<thead><tr> 
+<th>ID</th><th>LOGIN</th><th>AVATARIMAGE</th><th >FOLLWERS</th>
+</tr></thead>
+<tbody ></tbody>
+</table>
+</br>
+</div>
+</div>
+
+<script src="jQuery.js" type="text/javascript"></script>
+<script src="sreenath.js"  type="text/javascript"></script>
+<script>
+// <div class="tablesection1" id="lastmonth"> <p class="tablesection11" id="lastmonth1">Table month have to come here............</p></div>
+</script>
+
+</body>
+
+
+
+<!--  https://api.github.com/search/repositories?q=stars%3A%3E%3D52900 !-->  
+
+
+<!-- https://api.github.com/search/users?q=repos:%3E42+followers:%3E19000 !-->
